@@ -39,4 +39,4 @@ if great_filter.lower() in acceptable_answers:
         final_grade = float(raw_score * grade_weight)
         print('\n' + student + "\'s grade: " + str(final_grade) + '\n')
 else:
-    print('It\'s a yes-or-no question.' + "\n")
+    print('\n' + "It\'s a yes-or-no question." + '\n')
