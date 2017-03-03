@@ -10,13 +10,13 @@ student = str(input('What is the student\'s name? '))
 
 phase_1_assessment_raw_score = float(input('What grade did ' + \
                                 student + ' earn, on their ' + \
-                                'first exam? '))
+                                'first assessment? '))
 phase_2_assessment_raw_score = float(input('What grade did ' + \
                                 student + ' earn, on their ' + \
-                                'second exam? '))
+                                'second assessment? '))
 phase_3_assessment_raw_score = float(input('What grade did ' + \
                                 student + ' earn, on their ' + \
-                                'third exam? '))
+                                'third assessment? '))
 
 sum_of_raw_scores = phase_1_assessment_raw_score + \
                     phase_2_assessment_raw_score + \
